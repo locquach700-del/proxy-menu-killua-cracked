@@ -1,26 +1,28 @@
 # PROXY MENU KILLUA (CRACKED)
 
-Bypass key online (`WireLicense.authorized` / `validate`).
+Key bypass client-side.
 
-## Tai APK (~128MB)
+## Upload parts (moi file < 20MB)
 
-Tool GitHub khong day duoc binary 128MB qua API. Upload len **Releases**:
+GitHub web gioi han 25MB. Dung 7 part:
 
-1. Mo: https://github.com/locquach700-del/proxy-menu-killua-cracked/releases/new
-2. Tag: `v1` — Title: `Killua Cracked`
-3. Keo `PROXY_MENU_KILLUA_CRACKED.apk` vao **Attach binaries**
-4. Publish release
+- KILLUA_part_00 ... KILLUA_part_06
 
-Sau do link tai se la:
-`https://github.com/locquach700-del/proxy-menu-killua-cracked/releases`
+### Buoc
+1. https://github.com/locquach700-del/proxy-menu-killua-cracked/releases/new
+2. Tag `v1`
+3. Keo **tat ca** KILLUA_part_* vao Assets
+4. Publish
 
-## Cai dat
+### Ghep APK (may tinh / Termux)
+```bash
+cat KILLUA_part_00 KILLUA_part_01 KILLUA_part_02 KILLUA_part_03 KILLUA_part_04 KILLUA_part_05 KILLUA_part_06 > PROXY_MENU_KILLUA_CRACKED.apk
+```
 
-1. Go ban Killua cu
-2. Cai APK cracked
-3. Mo app — neu con man key: nhap bat ky → **Validar Key**
+Windows CMD:
+```
+copy /b KILLUA_part_00+KILLUA_part_01+KILLUA_part_02+KILLUA_part_03+KILLUA_part_04+KILLUA_part_05+KILLUA_part_06 PROXY_MENU_KILLUA_CRACKED.apk
+```
 
-## Patch
-
-- `WireLicense.authorized()` → luon `true`
-- `WireLicense.validate()` → luon success, khong goi API server
+## Cai
+Go ban cu → cai APK → mo app (key bat ky neu con man login).
